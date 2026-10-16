@@ -26,7 +26,7 @@ A **633-character vocabulary** (crypto symbols + ten styled alphabets) and a **7
 ## Files
 
 - `payload.txt` — the exact text that was posted (12,347 characters, 5,495 glyphs, 27 labeled blocks)
-- `manifest.json` — every glyph in the payload, as `[block, codepoint]` pairs
+- `manifest.json` — every glyph in the payload, compact indexed format (`blocks` list + `[block_index, codepoint]` pairs)
 - `published-thread-readback.txt` — the full thread text pulled back through the X API after publishing
 - `RESULTS.md` — the complete findings, block by block, including the render-layer corrections
 - `tier1-vocabulary.txt` — the 633 certified characters (crypto symbols + styled registers)
